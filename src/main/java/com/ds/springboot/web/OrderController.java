@@ -93,4 +93,15 @@ public class OrderController {
 		orderService.deleteOrder(id);
 	}
 	
+	 /**
+	  * Deletes all Orders from the repository
+	  *
+	  */
+	@RequestMapping(method=RequestMethod.DELETE,value="/orders")
+	@ResponseStatus(HttpStatus.NO_CONTENT)
+	public void deleteAllOrder()
+	{
+		orderService.deleteAllOrder();
+	}
+	
 }
