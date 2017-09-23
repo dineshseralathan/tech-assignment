@@ -5,9 +5,9 @@
     
     
 	  <groupId>ds.test.springboot</groupId>
-	  <artifactId>test-restapi</artifactId>
+	  <artifactId>tech-assignment</artifactId>
 	  <version>0.0.1-SNAPSHOT</version>
-	  <name>DS Test RESTful api</name>
+	  <name>Dinesh Seralathan tech assignment on RESTful api</name>
   
     <parent>
         <groupId>org.springframework.boot</groupId>
