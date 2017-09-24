@@ -3,7 +3,7 @@ package com.ds.springboot.service;
 import java.util.Map;
 import java.util.TreeMap;
 
-import org.springframework.stereotype.Service;
+
 
 /**
  * <code>WordCount</code> is an utility class that provides utility method that takes a 
@@ -15,7 +15,6 @@ import org.springframework.stereotype.Service;
  * @author dinesh
  *
  */
-@Service
 public class WordCountService {
 	 
 	 private static final char DOT 			= '.';
@@ -252,12 +251,11 @@ public class WordCountService {
 	
 	
 	public static void main(String[] args)
-	 {
-		 
-		 String inputString = "Testing special characters like @ # $ %  () _ * & ^ and number like 123,45,6789 to be exlcuded by word count algorithm.";
-		  
-		 WordCountService wc = new WordCountService(inputString);
-		 System.out.println(wc.getWordsToCount());
+	 {  
+		String testString = "Testing special characters like @ # $ %  () _ * & ^ and number \"\r\n" + 
+				"	    								+ \"like 123,45,6789 to be excluded by word count algorithm.";
+		 WordCountService wc = new WordCountService(testString);
+		 System.out.println("*******Word Count list******   \n"+wc.getWordsToCount());
 	 }
 
 }

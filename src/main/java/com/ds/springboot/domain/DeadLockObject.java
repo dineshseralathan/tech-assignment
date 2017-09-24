@@ -3,10 +3,6 @@
  */
 package com.ds.springboot.domain;
 
-
-
-import org.springframework.stereotype.Component;
-
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonProperty.Access;
 
@@ -19,7 +15,7 @@ import com.fasterxml.jackson.annotation.JsonProperty.Access;
  * @author dinesh
  *
  */
-@Component
+
 public class DeadLockObject {
 	
 	@JsonProperty(access = Access.WRITE_ONLY)
