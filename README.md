@@ -1,5 +1,4 @@
-# tech-assignment
-Technical assignment
+# Technical Assignment
 
 This tech- assignment application is developed using spring boot framework and hence the applciation can
 be run as a stand alone jar without having to deploy to any servlet container.
@@ -23,17 +22,22 @@ Go to the project directory (unzipped and extracted from git source repository) 
 
 <i>Note</i>: This is all needed to run the application and you are good to test the REST endpoints either using curl or Rest client like chrome extension Advanced Rest client -'ARC'( go to chrome web store and search for ARC and add as chrome extension) 
 
-Example
-
-<example>
 
 
-If importing the project into eclipse (or any IDE) make sure you have maven installed as pre requisite (refer https://maven.apache.org/)
-so that all runtime dependent jars are pulled in (via pom.xml)
+If you choose to import the project into eclipse (or any IDE) make sure you have maven installed as pre requisite (refer https://maven.apache.org/) in order to pull done runtime dependent jars (via pom.xml)
 
 Right click <b>'TestRestApiApplication.java'</b>, select 'Run as' -> 'Java Application'. This boot straps the application on embedded tomcat sevelet container.
 
+Also if you like to create the jar file out of the source code and run as stand alone jar, all you need is to go to projetc directory
+and run
 
+       mvn compile  -- to compile
+       
+ and then run
+ 
+       mvn install  
+
+Above command will build the project, run JUnits, other automated tests and creates the executable jar
 
 # REST API
 
