@@ -37,7 +37,7 @@ and run
  
        mvn install  
 
-Above command will build the project, run JUnits, other automated tests and creates the executable jar
+Above command will build the project, run JUnits, other automated tests ( please check the folder <i>target\surefire-reports</i> for Junit reports) and creates the executable jar
 
 # REST API
 
@@ -199,7 +199,7 @@ The REST APIs from tech-assignment project are described as below.
 
     {"deadlockDetected":true}
 
-
+<i>Note:</i> Please check the server console (if running from inside IDE) or command line to check the log that has more information on what's happening behind the scene.
 
 
 
