@@ -202,5 +202,20 @@ The REST APIs from tech-assignment project are described as below.
 <i>Note:</i> Please check the server console (if running from inside IDE) or command line to check the log that has more information on what's happening behind the scene.
 
 
+## Get quniue word count list for given string
 
+### Request
 
+    `GET /wordcount`
+
+        curl -H "Content-Type: application/json" -X POST -d  "{\"tetsing string for unique words and it's respective count!!!\"}"               http://localhost:8080/wordcount
+
+### Response
+
+    Content-Type: application/json;charset=UTF-8
+    Date: Sun, 24 Sep 2017 02:11:53 GMT
+    Transfer-Encoding: chunked
+
+    {"and":1,"count":1,"for":1,"it's":1,"respective":1,"string":1,"tetsing":1,"unique":1,"words":1}
+
+<b>Note: <i>Couldn't use main method to run for the above class due to the way the classes are packaged inside the spring boot jar, so i exposed REST end point instead<i/> :(</b>
