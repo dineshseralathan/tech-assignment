@@ -1,4 +1,4 @@
-# Technical Assignment
+# RESTful service in Spring Boot
 
 This tech- assignment application is developed using spring boot framework and hence the applciation can
 be run as a stand alone jar without having to deploy to any servlet container.
