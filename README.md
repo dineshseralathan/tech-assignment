@@ -26,7 +26,7 @@ Go to the project directory (unzipped and extracted from git source repository) 
 
 If you choose to import the project into eclipse (or any IDE) make sure you have maven installed as pre requisite (refer https://maven.apache.org/) in order to pull done runtime dependent jars (via pom.xml)
 
-Right click <b>'TestRestApiApplication.java'</b>, select 'Run as' -> 'Java Application'. This boot straps the application on embedded tomcat sevelet container.
+Right click <b>'TestRestApiApplication.java'</b>, select 'Run as' -> 'Java Application'. This boot straps the application on embedded tomcat servlet container.
 
 Also if you like to create the jar file out of the source code and run as stand alone jar, all you need is to go to projetc directory
 and run
