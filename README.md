@@ -202,7 +202,7 @@ The REST APIs from tech-assignment project are described as below.
 <i>Note:</i> Please check the server console (if running from inside IDE) or command line to check the log that has more information on what's happening behind the scene.
 
 
-## Get quniue word count list for given string
+## Get unique word count list for given string
 
 ### Request
 
